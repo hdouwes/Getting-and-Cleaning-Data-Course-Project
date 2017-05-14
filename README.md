@@ -2,10 +2,10 @@
 
 Repo for the submission of the course project for the Johns Hopkins Getting and Cleaning Data course. This repo contains:
 
-*README.md
-*CodeBook.md
-*run_analysis.R
-*tidyset.txt
+* README.md
+* CodeBook.md
+* run_analysis.R
+* tidyset.txt
 
 run_analysis.R does the following:
 1. Merges the training and the test sets to create one data set.
