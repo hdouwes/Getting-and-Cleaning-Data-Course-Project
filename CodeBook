@@ -1,0 +1,108 @@
+#Codebook
+
+This codebook shows information about the variables used on the Getting and Cleaning Data Course Project.
+
+All the data was obtained here:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+timebodyaccelerometer-XYZ
+timegravityaccelerometer-XYZ
+timebodyaccelerometerjerk-XYZ
+timebodygyroscope-XYZ
+timebodygyroscopejerk-XYZ
+timebodyaccelerometermagnitude
+timegravityaccelerometermagnitude
+timebodyaccelerometerJerkmagnitude
+timebodygyroscopemagnitude
+timebodygyroscopejerkmagnitude
+frequencybodyaccelerometer-XYZ
+frequencybodyaccelerometerjerk-XYZ
+frequencybodygyroscope-XYZ
+frequencybodyaccelerometermagnitude
+frequencybodyaccelerometerjerkmagnitude
+frequencybodygyroscopemagnitude
+frequencybodygyroscopejerkmagnitude
+
+The set of variables that were estimated from these signals are: 
+
+mean(): Mean value
+std(): Standard deviation
+
+The complete list of variables of each feature vector:
+subject
+activity
+timebodyaccelerometer-mean()-x 
+timebodyaccelerometer-mean()-y 
+timebodyaccelerometer-mean()-z 
+timebodyaccelerometer-std()-x 
+timebodyaccelerometer-std()-y 
+timebodyaccelerometer-std()-z 
+timegravityaccelerometer-mean()-x 
+timegravityaccelerometer-mean()-y 
+timegravityaccelerometer-mean()-z 
+timegravityaccelerometer-std()-x 
+timegravityaccelerometer-std()-y 
+timegravityaccelerometer-std()-z 
+timebodyaccelerometerjerk-mean()-x 
+timebodyaccelerometerjerk-mean()-y 
+timebodyaccelerometerjerk-mean()-z 
+timebodyaccelerometerjerk-std()-x 
+timebodyaccelerometerjerk-std()-y 
+timebodyaccelerometerjerk-std()-z 
+timebodygyroscope-mean()-x 
+timebodygyroscope-mean()-y 
+timebodygyroscope-mean()-z 
+timebodygyroscope-std()-x 
+timebodygyroscope-std()-y 
+timebodygyroscope-std()-z 
+timebodygyroscopejerk-mean()-x 
+timebodygyroscopejerk-mean()-y 
+timebodygyroscopejerk-mean()-z 
+timebodygyroscopejerk-std()-x 
+timebodygyroscopejerk-std()-y 
+timebodygyroscopejerk-std()-z 
+timebodyaccelerometermagnitude-mean() 
+timebodyaccelerometermagnitude-std() 
+timegravityaccelerometermagnitude-mean() 
+timegravityaccelerometermagnitude-std() 
+timebodyaccelerometerjerkmagnitude-mean() 
+timebodyaccelerometerjerkmagnitude-std() 
+timebodygyroscopemagnitude-mean() 
+timebodygyroscopemagnitude-std() 
+timebodygyroscopejerkmagnitude-mean() 
+timebodygyroscopejerkmagnitude-std() 
+frequencybodyaccelerometer-mean()-x 
+frequencybodyaccelerometer-mean()-y 
+frequencybodyaccelerometer-mean()-z 
+frequencybodyaccelerometer-std()-x 
+frequencybodyaccelerometer-std()-y 
+frequencybodyaccelerometer-std()-z 
+frequencybodyaccelerometerjerk-mean()-x 
+frequencybodyaccelerometerjerk-mean()-y 
+frequencybodyaccelerometerjerk-mean()-z 
+frequencybodyaccelerometerjerk-std()-x 
+frequencybodyaccelerometerjerk-std()-y 
+frequencybodyaccelerometerjerk-std()-z 
+frequencybodygyroscope-mean()-x 
+frequencybodygyroscope-mean()-y 
+frequencybodygyroscope-mean()-z 
+frequencybodygyroscope-std()-x 
+frequencybodygyroscope-std()-y 
+frequencybodygyroscope-std()-z 
+frequencybodyaccelerometermagnitude-mean() 
+frequencybodyaccelerometermagnitude-std() 
+frequencybodyaccelerometerjerkmagnitude-mean() 
+frequencybodyaccelerometerjerkmagnitude-std() 
+frequencybodygyroscopemagnitude-mean() 
+frequencybodygyroscopemagnitude-std() 
+frequencybodygyroscopejerkmagnitude-mean() 
+frequencybodygyroscopejerkmagnitude-std()
